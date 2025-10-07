@@ -68,3 +68,42 @@ npm install
 npm run dev
 
 # Ou abra o arquivo index.html diretamente em seu navegador
+
+## 💡 Como Usar
+
+1. Abra o navegador e acesse: `http://localhost:5173` (ou o endereço indicado pelo Vite).
+2. Insira o valor que deseja converter.
+3. Selecione a moeda de origem e a moeda de destino.
+4. Clique em **Converter** e veja o resultado.
+
+---
+
+## 🔐 Variáveis de Ambiente
+
+Se estiver usando uma API que requer autenticação, crie um arquivo `.env` na raiz do projeto com:
+
+```env
+VITE_API_KEY=sua_chave_da_api  
+VITE_API_URL=https://api.exemplo.com
+
+## 🚧 Melhorias Futuras
+
+- [ ] Adicionar gráfico histórico de câmbio  
+- [ ] Implementar tema escuro  
+- [ ] Tradução da interface (i18n)  
+- [ ] Armazenamento em cache para reduzir chamadas à API  
+- [ ] Transformar em PWA (Progressive Web App)
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas!
+
+### Para contribuir:
+
+1. Faça um fork do repositório  
+2. Crie uma branch para sua feature:
+
+```bash
+git checkout -b feature/nova-funcionalidade
